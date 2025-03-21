@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/*.jar app.jar
 
 # Expose the application port (if needed)
-EXPOSE 8080
+EXPOSE 8081
 
 # Run the JAR file
 CMD ["java", "-jar", "app.jar"]
